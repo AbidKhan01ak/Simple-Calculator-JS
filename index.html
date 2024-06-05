@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+
+    <main class="calculator">
+      <section class="description">
+        <h2>Built for You</h2>
+        <p>
+          Our <em>Calculator</em> is a user-friendly tool built with HTML, CSS,
+          and JavaScript, designed to simplify your mathematical tasks. Crafted
+          with care and attention to detail, it seamlessly handles basic
+          arithmetic operations such as addition, subtraction, multiplication,
+          division as well as complex expressions with multiple operators and
+          percentage calculations. Behind the scenes, it employs error handling
+          to gracefully manage invalid input and follows the BODMAS rule for
+          accurate operator precedence. With instant results displayed as you
+          input your expression, it ensures a smooth and efficient experience.
+        </p>
+      </section>
+
+      <section class="container">
+        <div class="display">
+          <input id="screen" placeholder="0" autofocus />
+        </div>
+        <div class="btns">
+          <div class="row">
+            <button id="All-clear" class="btn">AC</button>
+            <button id="clear" class="btn">CE</button>
+            <button class="btn">%</button>
+            <button class="btn">÷</button>
+          </div>
+          <div class="row">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">+</button>
+          </div>
+          <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">-</button>
+          </div>
+          <div class="row">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">x</button>
+          </div>
+          <div class="row">
+            <button class="btn">.</button>
+            <button class="btn">0</button>
+            <button class="btn">00</button>
+            <button class="btn">=</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">
+        &copy; Made by
+        <a href="https://github.com/AbidKhan01ak">
+          Abid Khan <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </p>
+    </footer>
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/94c50c5d97.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
