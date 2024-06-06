@@ -121,7 +121,7 @@ h1 {
 
 .btns .row button {
   width: 100px;
-  height: 35px;
+  height: 40px;
   font-size: 24px;
   border: none;
   border-radius: 15px;
@@ -170,6 +170,104 @@ footer a i {
 }
 
 /* Responsive styles */
+
+/* For 1024x768 resolution screens */
+@media (min-width: 1024px) and (max-height: 768px) {
+  h1 {
+    font-size: 34px;
+    margin: 0.5vh 0 0 3vh;
+  }
+
+  .description {
+    width: 42%;
+    margin-right: 80px;
+  }
+
+  .description h2 {
+    font-size: 23px;
+  }
+
+  .description p {
+    font-size: 16px;
+    margin-left: 1.5vh;
+  }
+
+  .calculator {
+    margin-right: 120px;
+    min-height: 82vh;
+  }
+
+  .container {
+    width: 42%;
+    height: 50vh;
+  }
+
+  .display #screen {
+    height: 64px;
+    font-size: 30px;
+  }
+
+  .btns .row button {
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    margin: 12px 12px 0;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
+
+/* For 1280x600 resolution screens */
+@media (min-width: 1280px) and (max-height: 600px) {
+  h1 {
+    font-size: 32px;
+    margin: 0.5vh 0 0 2.5vh;
+  }
+
+  .description {
+    width: 40%;
+    margin-right: 70px;
+  }
+
+  .description h2 {
+    font-size: 22px;
+  }
+
+  .description p {
+    font-size: 16px;
+    margin-left: 1.5vh;
+  }
+
+  .calculator {
+    margin-right: 110px;
+    min-height: 90vh;
+  }
+
+  .container {
+    width: 40%;
+    height: 55vh;
+  }
+
+  .display #screen {
+    height: 62px;
+    font-size: 28px;
+  }
+
+  .btns .row button {
+    width: 70px;
+    height: 20px;
+    font-size: 18px;
+    margin: 10px 8px 0;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+}
+
+/* For tablets and smaller screens */
 @media (max-width: 768px) {
   .description {
     width: 100%;
@@ -201,6 +299,7 @@ footer a i {
   }
 }
 
+/* For mobile phones */
 @media (max-width: 480px) {
   h1 {
     font-size: 28px;
