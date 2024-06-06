@@ -168,3 +168,63 @@ footer a {
 footer a i {
   color: var(--footer-icon-color);
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .description {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .calculator {
+    justify-content: center;
+    margin-right: 0;
+    min-height: 70vh;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+
+  .display #screen {
+    font-size: 28px;
+  }
+
+  .btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 15px 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    margin: 1vh 0 0 2vh;
+  }
+
+  .description p {
+    font-size: 16px;
+    margin-left: 1vh;
+  }
+
+  .display #screen {
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .btns .row button {
+    width: 70px;
+    height: 28px;
+    font-size: 18px;
+    margin: 10px 5px 0;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
