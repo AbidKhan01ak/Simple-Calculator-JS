@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A calculator made using JavaScript,HTML and CSS for simple and complex calculation",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html  --dist-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbidKhan01ak/Simple-Calculator-JS.git"
+  },
+  "author": "Abid Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbidKhan01ak/Simple-Calculator-JS/issues"
+  },
+  "homepage": "https://github.com/AbidKhan01ak/Simple-Calculator-JS#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
